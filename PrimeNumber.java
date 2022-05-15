@@ -5,13 +5,13 @@ public class PrimeNumber {
 	public void pmMethod() {
 		
 		int a = 2;
-		int b = 13;
+		int b = 15;
 		
 		if (b==2)	
 		{
 			System.out.println("Given Number is a Prime Number");
 		}	
-		else if (b%a == 0)
+		else if (b%a == 0 && b%b == 0)
 		{
 			System.out.println("Given Number is not a Prime Number");	
 		} 
